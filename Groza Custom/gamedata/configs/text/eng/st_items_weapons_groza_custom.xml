@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+	<string id="st_wpn_groza_custom">
+		<text>OTs-14-2 Groza Custom</text>
+	</string>
+	<string id="st_wpn_groza_custom_descr">
+		<text>The OTs-14-2 "Groza Custom" is chambered for 7.62x39mm. Fire rate, flatness and magazine capacity are improved thanks to the use of this lighter, faster round. The Groza Custom has been modified further with the addition of picatinny rails for mounting various optics and a side mounted laser module.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] PEQ LA5 LAM\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher\n</text>
+	</string>
+	
+</string_table>

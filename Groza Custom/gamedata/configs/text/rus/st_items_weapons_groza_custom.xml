@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+	<string id="st_wpn_groza_custom">
+		<text>ОЦ-14-2 Гроза Custom</text>
+	</string>
+	<string id="st_wpn_groza_custom_descr">
+		<text>ОЦ-14-2 Гроза Custom под патрон 7,62x39 мм. Благодаря использованию более легкого и скорострельного патрона улучшились скорострельность, кучность и емкость магазина. Groza Custom была доработана с добавлением направляющих пикатинни для установки различной оптики и бокового ЛЦУ.\n \n
+		%c[ui_gray_2]Оборудование: \n
+		%c[d_purple] • %c[ui_gray_2] ЛЦУ\n
+		%c[d_purple] • %c[ui_gray_2] Подствольный гранатомет ГП-25\n</text>
+	</string>
+	
+</string_table>
