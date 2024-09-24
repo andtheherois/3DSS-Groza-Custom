@@ -75,7 +75,7 @@ ammo_elapsed                             = 40
 ammo_mag_size                            = 40
 startup_ammo                             = 90
 
-scopes                                   = acog, eot, specter, c-more, 0kp2, ac10632, d0cter, leupold, aimpoint, aim_low, point_aimpro, e0t2, pn23, deltapoint, compm4s, rakurs, marchf, kemper, ekp8_18, mepro, tac30, trihawk, monstrum, ps320, hamr, t12
+scopes                                   = acog, eot, specter, c-more, 0kp2, ac10632, d0cter, leupold, aimpoint, aim_low, point_aimpro, e0t2, pn23, deltapoint, compm4s, rakurs, marchf, kemper, ekp8_18, mepro, tac30, trihawk, monstrum, ps320, hamr, t12, gauss_sight
 scope_status                             = 0
 scope_zoom_factor                        = 0
 
@@ -1033,6 +1033,36 @@ item_visual                              = dynamics\weapons\wpn_groza_custom\wpn
         aim_hud_offset_pos_16x9          = 0.016728, -0.011864, -0.085027
         aim_hud_offset_rot               = 0.005126, 0.000421, 0
         aim_hud_offset_rot_16x9          = 0.005126, 0.000421, 0
+
+        gl_hud_offset_pos                = 0.060343, -0.057356, 0.112278
+        gl_hud_offset_pos_16x9           = 0.060343, -0.057356, 0.112278
+        gl_hud_offset_rot                = -0.171797, -0.019534, 0.001399
+        gl_hud_offset_rot_16x9           = -0.171797, -0.019534, 0.001399		
+;------------------------------------------------------------------------------------------------
+[wpn_groza_custom_gauss_sight]:wpn_groza_custom
+1icon_layer                              = gauss_sight
+1icon_layer_x                            = 76
+1icon_layer_y                            = -13
+
+inv_weight                               = 3.840
+
+hud                                      = wpn_groza_custom_gauss_sight_hud
+
+scope_zoom_factor_alt                    = 0
+
+scope_status                             = 1
+scope_dynamic_zoom                       = on
+        scope_zoom_factor                = 20
+
+		
+[wpn_groza_custom_gauss_sight_hud]:wpn_groza_custom_hud
+
+item_visual                              = dynamics\weapons\wpn_groza_custom\wpn_groza_custom2_gauss_hud.ogf
+
+        aim_hud_offset_pos               = 0.016612, -0.008408, -0.066934
+        aim_hud_offset_pos_16x9          = 0.016612, -0.008408, -0.066934
+        aim_hud_offset_rot               = 0.006058, 0.001014, -0.006188
+        aim_hud_offset_rot_16x9          = 0.006058, 0.001014, -0.006188
 
         gl_hud_offset_pos                = 0.060343, -0.057356, 0.112278
         gl_hud_offset_pos_16x9           = 0.060343, -0.057356, 0.112278
